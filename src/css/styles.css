@@ -16,7 +16,7 @@ input[name="search-text"] {
   border-radius: 50%;
   position: relative;
   margin: 0 auto;
-  display: none;
+  display: block;
   animation: rotate 1s linear infinite
 }
 
@@ -66,3 +66,10 @@ input[name="search-text"] {
   display: block;
 }
 
+ button.hidden {
+  display: none;
+}
+
+.loader.hidden {
+  display: none;
+}
